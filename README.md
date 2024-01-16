@@ -14,4 +14,6 @@ and frontend design used in this project # [Soft UI Dashboard Laravel](https://w
 * If you want to go on admin panel just sign up your account and go to users table in tasky database and change the value 0 to 1 of is_admin column in users table * Note: admin panel is not fully completed
 
 ## How to use
-In this project if you want to add contacts You can upload your csv file and for processing the file you have manually type the url http://127.0.0.1:8000/process-files" this will extract the data from the csv file and save into database
+To add contacts, follow these steps:
+* Upload your CSV file.
+* Manually type the URL "http://127.0.0.1:8000/process-files" to extract data from the CSV file and save it into the database.
