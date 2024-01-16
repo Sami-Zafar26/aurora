@@ -12,3 +12,6 @@ and frontend design used in this project # [Soft UI Dashboard Laravel](https://w
 * Open new tab in your terminal or new cmd in your project type this command "php artisan schedule:work" this will start the cron job in this project
 * Now open the browser and type this url "http://127.0.0.1:8000/" now use it
 * If you want to go on admin panel just sign up your account and go to users table in tasky database and change the value 0 to 1 of is_admin column in users table * Note: admin panel is not fully completed
+
+## How to use
+In this project if you want to add contacts You can upload your csv file and for processing the file you have manually type the url http://127.0.0.1:8000/process-files" this will extract the data from the csv file and save into database
